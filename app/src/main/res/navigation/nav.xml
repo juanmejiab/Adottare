@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/navInicio">
+
+    <fragment
+        android:id="@+id/navInicio"
+        android:name="edu.com.upb.adottare.FragmentoInicio"
+        tools:layout="@layout/fragment_fragmento_inicio" />
+
+    <fragment
+        android:id="@+id/navAdoptar"
+        android:name="edu.com.upb.adottare.FragmentoAdoptar"
+        tools:layout="@layout/fragment_fragmento_adoptar" />
+
+    <fragment
+        android:id="@+id/navAbout"
+        android:name="edu.com.upb.adottare.FragmentoAbout"
+        tools:layout="@layout/fragment_fragmento_about" />
+</navigation>
